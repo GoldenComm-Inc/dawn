@@ -12,9 +12,26 @@
         "soft_background": true,
         "show_view_all": true
       }
+    },
+    "1639698899e45ad9d9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "crimson",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": true
+      }
     }
   },
   "order": [
-    "16396988710dad1cc9"
+    "16396988710dad1cc9",
+    "1639698899e45ad9d9"
   ]
 }
