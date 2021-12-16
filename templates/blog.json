@@ -5,30 +5,13 @@
       "settings": {
         "layout": "grid",
         "show_image": true,
-        "image_height": "small",
+        "image_height": "adapt",
         "show_date": true,
-        "show_author": false
-      }
-    },
-    "16390908432999a14e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "collection": "crimson",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "add_image_padding": true,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": true
+        "show_author": true
       }
     }
   },
   "order": [
-    "main",
-    "16390908432999a14e"
+    "main"
   ]
 }
