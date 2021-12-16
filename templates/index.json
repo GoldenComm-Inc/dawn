@@ -28,10 +28,68 @@
         "show_vendor": true,
         "show_rating": true
       }
+    },
+    "1639698951b2b8bf73": {
+      "type": "collection-list",
+      "blocks": {
+        "163969895143592ef2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crimson"
+          }
+        },
+        "163969895143592ef2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "autumn-sunset"
+          }
+        },
+        "163969895143592ef2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "billowing-breeze"
+          }
+        },
+        "8b69ae83-314e-4f85-94ff-135fb4c04c13": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bitter-smoke"
+          }
+        },
+        "1b8d4a51-7cda-4c63-aabc-f8e3b51ceacc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-water"
+          }
+        },
+        "ad1b3389-b6a7-461f-9e30-b4de7b838465": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crimson-shadow"
+          }
+        }
+      },
+      "block_order": [
+        "163969895143592ef2-0",
+        "163969895143592ef2-1",
+        "163969895143592ef2-2",
+        "8b69ae83-314e-4f85-94ff-135fb4c04c13",
+        "1b8d4a51-7cda-4c63-aabc-f8e3b51ceacc",
+        "ad1b3389-b6a7-461f-9e30-b4de7b838465"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
     "16396988710dad1cc9",
-    "1639698899e45ad9d9"
+    "1639698899e45ad9d9",
+    "1639698951b2b8bf73"
   ]
 }
