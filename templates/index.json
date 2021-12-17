@@ -85,11 +85,80 @@
         "image_padding": true,
         "show_view_all": true
       }
+    },
+    "1639699240a14f3bc1": {
+      "type": "featured-product",
+      "blocks": {
+        "1639699240cd28dc5a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1639699240cd28dc5a-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1639699240cd28dc5a-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1639699240cd28dc5a-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1639699240cd28dc5a-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1639699240cd28dc5a-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1639699240cd28dc5a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1639699240cd28dc5a-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1639699240cd28dc5a-0",
+        "1639699240cd28dc5a-1",
+        "1639699240cd28dc5a-2",
+        "1639699240cd28dc5a-3",
+        "1639699240cd28dc5a-4",
+        "1639699240cd28dc5a-5",
+        "1639699240cd28dc5a-6",
+        "1639699240cd28dc5a-7"
+      ],
+      "settings": {
+        "product": "crimson-surf",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
     "16396988710dad1cc9",
     "1639698899e45ad9d9",
-    "1639698951b2b8bf73"
+    "1639698951b2b8bf73",
+    "1639699240a14f3bc1"
   ]
 }
