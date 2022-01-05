@@ -1,193 +1,6 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "desktop_content_position": "middle-center"
-      },
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "crimson",
-        "products_to_show": 6,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": true
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "163907230663c71d1d": {
+    "16396988710dad1cc9": {
       "type": "featured-blog",
       "settings": {
         "heading": "Blog posts",
@@ -196,52 +9,369 @@
         "show_image": true,
         "show_date": true,
         "show_author": true,
-        "soft_background": false,
+        "soft_background": true,
         "show_view_all": true
       }
     },
-    "163908858107ea765c": {
+    "1639698899e45ad9d9": {
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
         "collection": "crimson",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": true,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
-        "add_image_padding": true,
+        "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": true
       }
     },
-    "16394186271bbb8455": {
-      "type": "featured-collection",
+    "1639698951b2b8bf73": {
+      "type": "collection-list",
+      "blocks": {
+        "163969895143592ef2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crimson"
+          }
+        },
+        "163969895143592ef2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "autumn-sunset"
+          }
+        },
+        "163969895143592ef2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "billowing-breeze"
+          }
+        },
+        "8b69ae83-314e-4f85-94ff-135fb4c04c13": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bitter-smoke"
+          }
+        },
+        "1b8d4a51-7cda-4c63-aabc-f8e3b51ceacc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-water"
+          }
+        },
+        "ad1b3389-b6a7-461f-9e30-b4de7b838465": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crimson-shadow"
+          }
+        }
+      },
+      "block_order": [
+        "163969895143592ef2-0",
+        "163969895143592ef2-1",
+        "163969895143592ef2-2",
+        "8b69ae83-314e-4f85-94ff-135fb4c04c13",
+        "1b8d4a51-7cda-4c63-aabc-f8e3b51ceacc",
+        "ad1b3389-b6a7-461f-9e30-b4de7b838465"
+      ],
       "settings": {
-        "title": "Featured collection",
-        "collection": "crimson",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
+        "title": "Collections",
         "image_ratio": "square",
-        "show_secondary_image": true,
-        "add_image_padding": true,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": true
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": true,
+        "show_view_all": true
+      }
+    },
+    "1639699240a14f3bc1": {
+      "type": "featured-product",
+      "blocks": {
+        "1639699240cd28dc5a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1639699240cd28dc5a-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1639699240cd28dc5a-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1639699240cd28dc5a-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1639699240cd28dc5a-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1639699240cd28dc5a-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1639699240cd28dc5a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1639699240cd28dc5a-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "3328c807-d458-46f4-83f8-8cac1db344c9": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1639699240cd28dc5a-0",
+        "1639699240cd28dc5a-1",
+        "1639699240cd28dc5a-2",
+        "1639699240cd28dc5a-3",
+        "1639699240cd28dc5a-4",
+        "1639699240cd28dc5a-5",
+        "1639699240cd28dc5a-6",
+        "1639699240cd28dc5a-7",
+        "3328c807-d458-46f4-83f8-8cac1db344c9"
+      ],
+      "settings": {
+        "product": "crimson-surf",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1639770073d5d52d73": {
+      "type": "featured-product",
+      "blocks": {
+        "163977007304ee6fc9-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "163977007304ee6fc9-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "163977007304ee6fc9-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "163977007304ee6fc9-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "163977007304ee6fc9-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "163977007304ee6fc9-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "163977007304ee6fc9-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "163977007304ee6fc9-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "163977007304ee6fc9-0",
+        "163977007304ee6fc9-1",
+        "163977007304ee6fc9-2",
+        "163977007304ee6fc9-3",
+        "163977007304ee6fc9-4",
+        "163977007304ee6fc9-5",
+        "163977007304ee6fc9-6",
+        "163977007304ee6fc9-7"
+      ],
+      "settings": {
+        "product": "ancient-dew",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "16397701818c0ca218": {
+      "type": "featured-product",
+      "blocks": {
+        "16397701811a8ca5a9-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16397701811a8ca5a9-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16397701811a8ca5a9-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16397701811a8ca5a9-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16397701811a8ca5a9-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16397701811a8ca5a9-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16397701811a8ca5a9-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16397701811a8ca5a9-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16397701811a8ca5a9-0",
+        "16397701811a8ca5a9-1",
+        "16397701811a8ca5a9-2",
+        "16397701811a8ca5a9-3",
+        "16397701811a8ca5a9-4",
+        "16397701811a8ca5a9-5",
+        "16397701811a8ca5a9-6",
+        "16397701811a8ca5a9-7"
+      ],
+      "settings": {
+        "product": "ancient-waterfall",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "16402079857d702a37": {
+      "type": "featured-product",
+      "blocks": {
+        "164020798511176528-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "164020798511176528-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "164020798511176528-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "164020798511176528-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "164020798511176528-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "164020798511176528-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "164020798511176528-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "164020798511176528-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "164020798511176528-0",
+        "164020798511176528-1",
+        "164020798511176528-2",
+        "164020798511176528-3",
+        "164020798511176528-4",
+        "164020798511176528-5",
+        "164020798511176528-6",
+        "164020798511176528-7"
+      ],
+      "settings": {
+        "product": "ancient-cherry",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column",
-    "163907230663c71d1d",
-    "163908858107ea765c",
-    "16394186271bbb8455"
+    "16396988710dad1cc9",
+    "1639698899e45ad9d9",
+    "1639698951b2b8bf73",
+    "1639699240a14f3bc1",
+    "1639770073d5d52d73",
+    "16397701818c0ca218",
+    "16402079857d702a37"
   ]
 }
