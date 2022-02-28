@@ -160,13 +160,7 @@
       "name": "Mise en page",
       "settings": {
         "page_width": {
-          "label": "Largeur de la page",
-          "options__1": {
-            "label": "1 200 pixels"
-          },
-          "options__2": {
-            "label": "1 600 pixels"
-          }
+          "label": "Largeur de la page"
         },
         "spacing_sections": {
           "label": "Espace vertical entre les sections"
@@ -300,10 +294,10 @@
           },
           "label": "Position de la carte de produit"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "Combinaison de couleurs du badge de vente"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "Combinaison de couleurs du badge de rupture de stock"
         }
       }
@@ -337,6 +331,38 @@
         "section_padding_heading": "Marge de la section",
         "padding_top": "Marge supérieure",
         "padding_bottom": "Marge inférieure"
+      },
+      "spacing": "Espacement",
+      "colors": {
+        "accent_1": {
+          "label": "Accent 1"
+        },
+        "accent_2": {
+          "label": "Accent 2"
+        },
+        "background_1": {
+          "label": "Arrière-plan 1"
+        },
+        "background_2": {
+          "label": "Arrière-plan 2"
+        },
+        "inverse": {
+          "label": "Inverser"
+        },
+        "label": "Combinaison de couleurs",
+        "has_cards_info": "Pour modifier le schéma de la carte de couleur, mettez à jour les paramètres de votre thème."
+      },
+      "heading_size": {
+        "label": "Taille du titre",
+        "options__1": {
+          "label": "Petit"
+        },
+        "options__2": {
+          "label": "Moyen"
+        },
+        "options__3": {
+          "label": "Grand"
+        }
       }
     },
     "announcement-bar": {
@@ -483,6 +509,21 @@
         },
         "show_view_all": {
           "label": "Activer le bouton « Tout afficher » si la liste comprend plus de collections que celles affichées"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
         }
       },
       "blocks": {
@@ -527,7 +568,7 @@
           "label": "Blog"
         },
         "post_limit": {
-          "label": "Articles de blog"
+          "label": "Nombre d'articles de blog à afficher"
         },
         "show_view_all": {
           "label": "Activer le bouton « Tout afficher » si le blog comprend plus d'articles que ceux affichés"
@@ -536,14 +577,14 @@
           "label": "Afficher les images vedettes",
           "info": "Pour optimiser vos résultats, utilisez une image ayant un rapport d'aspect de 3:2. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
-        "soft_background": {
-          "label": "Afficher l'arrière-plan secondaire"
-        },
         "show_date": {
           "label": "Afficher la date"
         },
         "show_author": {
           "label": "Afficher l'auteur"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
         }
       },
       "presets": {
@@ -591,7 +632,26 @@
         },
         "show_rating": {
           "label": "Afficher la note du produit",
+<<<<<<< HEAD
           "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/sections#featured-collection-show-product-rating)"
+=======
+          "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
         }
       },
       "presets": {
@@ -685,6 +745,9 @@
         },
         "payment_enable": {
           "label": "Afficher les icônes de paiement"
+        },
+        "margin_top": {
+          "label": "Marge supérieure"
         }
       }
     },
@@ -738,6 +801,9 @@
             "label": "Inverser"
           },
           "label": "Combinaison de couleurs"
+        },
+        "margin_bottom": {
+          "label": "Marge inférieure"
         }
       }
     },
@@ -862,15 +928,6 @@
           "settings": {
             "heading": {
               "label": "Titre"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Moyen"
-              },
-              "options__2": {
-                "label": "Grand"
-              },
-              "label": "Taille du titre"
             }
           }
         },
@@ -940,8 +997,7 @@
           "options__3": {
             "label": "Grand"
           },
-          "label": "Hauteur de l'image",
-          "info": "Détermine la hauteur de la section."
+          "label": "Hauteur de l'image"
         },
         "color_scheme": {
           "options__1": {
@@ -1036,18 +1092,6 @@
           "settings": {
             "heading": {
               "label": "Titre"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Petit"
-              },
-              "options__2": {
-                "label": "Moyen"
-              },
-              "options__3": {
-                "label": "Grand"
-              },
-              "label": "Taille du titre"
             }
           }
         },
@@ -1299,7 +1343,26 @@
         },
         "show_rating": {
           "label": "Afficher la note du produit",
+<<<<<<< HEAD
           "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#product-grid-show-product-rating)"
+=======
+          "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
         }
       }
     },
@@ -1441,7 +1504,7 @@
                 "label": "Menu déroulant"
               },
               "options__2": {
-                "label": "Bouton"
+                "label": "Comprimés"
               }
             }
           }
@@ -1493,75 +1556,135 @@
                 "label": "Aucune"
               },
               "options__2": {
-                "label": "postale"
+                "label": "Pomme"
               },
               "options__3": {
-                "label": "Bulle de chat"
+                "label": "Banane"
               },
               "options__4": {
-                "label": "Coche"
+                "label": "Bouteille"
               },
               "options__5": {
-                "label": "Séchoir"
+                "label": "Boîte"
               },
               "options__6": {
-                "label": "Œil"
+                "label": "Carotte"
               },
               "options__7": {
-                "label": "Cœur"
+                "label": "Bulle de chat"
               },
               "options__8": {
-                "label": "Fer"
+                "label": "Coche"
               },
               "options__9": {
-                "label": "Feuille"
+                "label": "Presse-papiers"
               },
               "options__10": {
-                "label": "Cuir"
+                "label": "Produits laitiers"
               },
               "options__11": {
-                "label": "Cadenas"
+                "label": "Sans produits laitiers"
               },
               "options__12": {
-                "label": "Épingle sur la carte"
+                "label": "Sèche-linge"
               },
               "options__13": {
-                "label": "Pantalons"
+                "label": "Œil"
               },
               "options__14": {
-                "label": "Avion"
+                "label": "Feu"
               },
               "options__15": {
-                "label": "Balise de prix"
+                "label": "Sans gluten"
               },
               "options__16": {
-                "label": "Point d'interrogation"
+                "label": "Cœur"
               },
               "options__17": {
-                "label": "Retour"
+                "label": "Fer"
               },
               "options__18": {
-                "label": "Règle"
+                "label": "Feuille"
               },
               "options__19": {
-                "label": "Chemise"
+                "label": "Cuir"
               },
               "options__20": {
-                "label": "Chaussure"
+                "label": "Foudre"
               },
               "options__21": {
-                "label": "Silhouette"
+                "label": "Rouge à lèvres"
               },
               "options__22": {
-                "label": "Étoile"
+                "label": "Cadenas"
               },
               "options__23": {
-                "label": "Camion"
+                "label": "Épingle sur la carte"
               },
               "options__24": {
-                "label": "Lavage"
+                "label": "Sans noix"
               },
-              "label": "Icône"
+              "label": "Icône",
+              "options__25": {
+                "label": "Pantalons"
+              },
+              "options__26": {
+                "label": "Empreinte"
+              },
+              "options__27": {
+                "label": "Poivre"
+              },
+              "options__28": {
+                "label": "Parfum"
+              },
+              "options__29": {
+                "label": "Avion"
+              },
+              "options__30": {
+                "label": "Plantes"
+              },
+              "options__31": {
+                "label": "Étiquette de prix"
+              },
+              "options__32": {
+                "label": "Point d'interrogation"
+              },
+              "options__33": {
+                "label": "Recyclage"
+              },
+              "options__34": {
+                "label": "Retour"
+              },
+              "options__35": {
+                "label": "Règle"
+              },
+              "options__36": {
+                "label": "Plat de service"
+              },
+              "options__37": {
+                "label": "Chemise"
+              },
+              "options__38": {
+                "label": "Chaussure"
+              },
+              "options__39": {
+                "label": "Silhouette"
+              },
+              "options__40": {
+                "label": "Flocon de neige"
+              },
+              "options__41": {
+                "label": "Étoile"
+              },
+              "options__42": {
+                "label": "Chronomètre"
+              },
+              "options__43": {
+                "label": "Camion"
+              },
+              "options__44": {
+                "label": "Lavage"
+              }
             }
           }
         },
@@ -1617,7 +1740,7 @@
             "label": "Vignettes"
           },
           "options__3": {
-            "label": "Carousel de vignettes"
+            "label": "Carrousel de vignettes"
           }
         },
         "media_size": {
@@ -1680,7 +1803,26 @@
         },
         "show_rating": {
           "label": "Afficher la note du produit",
+<<<<<<< HEAD
           "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#search-results-show-product-rating)"
+=======
+          "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
         }
       }
     },
@@ -1733,9 +1875,6 @@
           },
           "options__2": {
             "label": "Afficher comme arrière-plan de la colonne"
-          },
-          "options__3": {
-            "label": "Afficher comme arrière-plan de la section"
           }
         },
         "button_label": {
@@ -1746,6 +1885,21 @@
         },
         "swipe_on_mobile": {
           "label": "Activer le balayage sur mobile"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
         }
       },
       "blocks": {
@@ -1870,7 +2024,26 @@
         },
         "show_rating": {
           "label": "Afficher la note du produit",
+<<<<<<< HEAD
           "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#product-recommendations-show-product-rating)"
+=======
+          "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
         }
       }
     },
@@ -1905,18 +2078,6 @@
           "settings": {
             "heading": {
               "label": "Titre"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Petit"
-              },
-              "options__2": {
-                "label": "Moyen"
-              },
-              "label": "Taille du titre",
-              "options__3": {
-                "label": "Grand"
-              }
             }
           }
         },
@@ -2029,7 +2190,7 @@
                 "label": "Menu déroulant"
               },
               "options__2": {
-                "label": "Bouton"
+                "label": "Pilules"
               }
             }
           }
@@ -2323,23 +2484,10 @@
               "info": "Laissez le texte vide pour masquer le bouton."
             },
             "link": {
-              "label": "Lien du bouton",
-              "info": "Laissez le texte vide pour masquer le bouton."
+              "label": "Lien du bouton"
             },
             "secondary_style": {
               "label": "Utiliser le style de bouton en relief"
-            },
-            "heading_size": {
-              "label": "Taille du titre",
-              "options__1": {
-                "label": "Petit"
-              },
-              "options__2": {
-                "label": "Moyen"
-              },
-              "options__3": {
-                "label": "Grand"
-              }
             },
             "box_align": {
               "label": "Position du contenu sur ordinateur",
@@ -2550,72 +2698,132 @@
                 "label": "Aucun"
               },
               "options__2": {
-                "label": "Case"
+                "label": "Pomme"
               },
               "options__3": {
-                "label": "Bulle de chat"
+                "label": "Banane"
               },
               "options__4": {
-                "label": "Coche"
+                "label": "Bouteille"
               },
               "options__5": {
-                "label": "Séchoir"
+                "label": "Boîte"
               },
               "options__6": {
-                "label": "Œil"
+                "label": "Carotte"
               },
               "options__7": {
-                "label": "Cœur"
+                "label": "Bulle de chat"
               },
               "options__8": {
-                "label": "Fer"
+                "label": "Coche"
               },
               "options__9": {
-                "label": "Feuille"
+                "label": "Presse-papiers"
               },
               "options__10": {
-                "label": "Cuir"
+                "label": "Produits laitiers"
               },
               "options__11": {
-                "label": "Cadenas"
+                "label": "Sans produits laitiers"
               },
               "options__12": {
-                "label": "Épingle sur la carte"
+                "label": "Sèche-linge"
               },
               "options__13": {
-                "label": "Pantalons"
+                "label": "Œil"
               },
               "options__14": {
-                "label": "Avion"
+                "label": "Feu"
               },
               "options__15": {
-                "label": "Balise de prix"
+                "label": "Sans gluten"
               },
               "options__16": {
-                "label": "Point d'interrogation"
+                "label": "Cœur"
               },
               "options__17": {
-                "label": "Retour"
+                "label": "Fer"
               },
               "options__18": {
-                "label": "Règle"
+                "label": "Feuille"
               },
               "options__19": {
-                "label": "Chemise"
+                "label": "Cuir"
               },
               "options__20": {
-                "label": "Chaussure"
+                "label": "Foudre"
               },
               "options__21": {
-                "label": "Silhouette"
+                "label": "Rouge à lèvres"
               },
               "options__22": {
-                "label": "Étoile"
+                "label": "Cadenas"
               },
               "options__23": {
-                "label": "Camion"
+                "label": "Épingle sur la carte"
               },
               "options__24": {
+                "label": "Sans noix"
+              },
+              "options__25": {
+                "label": "Pantalons"
+              },
+              "options__26": {
+                "label": "Empreinte"
+              },
+              "options__27": {
+                "label": "Poivre"
+              },
+              "options__28": {
+                "label": "Parfum"
+              },
+              "options__29": {
+                "label": "Avion"
+              },
+              "options__30": {
+                "label": "Plantes"
+              },
+              "options__31": {
+                "label": "Étiquette de prix"
+              },
+              "options__32": {
+                "label": "Point d'interrogation"
+              },
+              "options__33": {
+                "label": "Recyclage"
+              },
+              "options__34": {
+                "label": "Retour"
+              },
+              "options__35": {
+                "label": "Règle"
+              },
+              "options__36": {
+                "label": "Plat de service"
+              },
+              "options__37": {
+                "label": "Chemise"
+              },
+              "options__38": {
+                "label": "Chaussure"
+              },
+              "options__39": {
+                "label": "Silhouette"
+              },
+              "options__40": {
+                "label": "Flocon de neige"
+              },
+              "options__41": {
+                "label": "Étoile"
+              },
+              "options__42": {
+                "label": "Chronomètre"
+              },
+              "options__43": {
+                "label": "Camion"
+              },
+              "options__44": {
                 "label": "Lavage"
               }
             }

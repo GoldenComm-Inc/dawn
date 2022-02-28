@@ -1,5 +1,6 @@
 {
   "sections": {
+<<<<<<< HEAD
     "16396988710dad1cc9": {
       "type": "featured-blog",
       "settings": {
@@ -11,6 +12,72 @@
         "show_author": true,
         "soft_background": true,
         "show_view_all": true
+=======
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text"
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading"
+        },
+        "text": {
+          "type": "text"
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "all",
+        "products_to_show": 8,
+        "show_view_all": false,
+        "show_secondary_image": true,
+        "padding_top": 28
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
       }
     },
     "1639698899e45ad9d9": {
@@ -32,11 +99,16 @@
     "1639698951b2b8bf73": {
       "type": "collection-list",
       "blocks": {
+<<<<<<< HEAD
         "163969895143592ef2-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "crimson"
           }
+=======
+        "collection-0": {
+          "type": "collection"
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
         },
         "163969895143592ef2-1": {
           "type": "featured_collection",
@@ -44,6 +116,7 @@
             "collection": "autumn-sunset"
           }
         },
+<<<<<<< HEAD
         "163969895143592ef2-2": {
           "type": "featured_collection",
           "settings": {
@@ -88,6 +161,26 @@
     },
     "1639699240a14f3bc1": {
       "type": "featured-product",
+=======
+        "collection-1": {
+          "type": "collection"
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ]
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
       "blocks": {
         "1639699240cd28dc5a-0": {
           "type": "text",
@@ -143,6 +236,7 @@
         }
       },
       "block_order": [
+<<<<<<< HEAD
         "1639699240cd28dc5a-0",
         "1639699240cd28dc5a-1",
         "1639699240cd28dc5a-2",
@@ -362,10 +456,23 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false
+=======
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "third",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": ""
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
       }
     }
   },
   "order": [
+<<<<<<< HEAD
     "16396988710dad1cc9",
     "1639698899e45ad9d9",
     "1639698951b2b8bf73",
@@ -373,5 +480,13 @@
     "1639770073d5d52d73",
     "16397701818c0ca218",
     "16402079857d702a37"
+=======
+    "image_banner",
+    "rich_text",
+    "featured_collection",
+    "collage",
+    "video",
+    "multicolumn"
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
   ]
 }

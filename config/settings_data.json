@@ -79,15 +79,6 @@
   },
   "presets": {
     "Default": {
-      "colors_solid_button_labels": "#FFFFFF",
-      "colors_accent_1": "#121212",
-      "colors_accent_2": "#334FB4",
-      "colors_text": "#121212",
-      "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#FFFFFF",
-      "colors_background_2": "#F3F3F3",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4",
       "sections": {
         "announcement-bar": {
           "type": "announcement-bar",
@@ -101,6 +92,7 @@
           },
           "block_order": [
             "announcement-bar-0"
+<<<<<<< HEAD
           ],
           "settings": {
           }
@@ -129,16 +121,61 @@
             "text": {
               "type": "text",
               "settings": {
+=======
+          ]
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list"
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
               }
             }
           },
           "block_order": [
+<<<<<<< HEAD
             "menu",
             "text"
           ],
           "settings": {
             "color_scheme": "accent-1"
           }
+=======
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header"
+        },
+        "main-password-footer": {
+          "type": "main-password-footer"
+>>>>>>> 17b672bfeba6d176bf2ba11a9485e151370e1ee5
         }
       }
     }
