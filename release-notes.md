@@ -1,29 +1,26 @@
-Dawn v5.0.0 introduces new ways to customize the look and feel of your store with a vertical product filter layout, mega menu header style, and a quick add button option. This update also features fixes and improvements, including several accessibility enhancements. 
+Dawn 10.0.0 introduces new color schemes, animation options across templates and sections, performance improvements for large images, an improved announcement bar, and the ability to change the shape of product cards images.
 
 ### Added
-- Important: We’ve introduced a new vertical product filter layout so you can further customize your store’s filters. You’ll find this setting in the collection and search templates. This update may cause a visual change to your theme. If you previously selected the “Collapse on desktop” checkbox, your filter layout will be changed to horizontal, which is the new default. If you’d like to achieve the collapsed style, select “Drawer” from the “Desktop filter layout” dropdown. 
-- Important: You can now control the number of desktop and mobile grid columns in the collections list page, giving you more options to express your brand’s look and feel. This update may cause a layout change because columns will no longer automatically adjust to fill the available screen width. This can be modified by adjusting the number of columns setting.
-- We’ve added the ability to choose a mega menu style in the header section, providing better support for menus with many items. 
-- You can now enable a quick add button on your product cards, allowing your customers to quickly add items to their cart. Find this setting in the collection template and the featured collection section. 
-- The featured collection section is now more flexible. You can control the description, text styles, button styles, and layout in the section settings. 
-- You can now adjust how many products to show in the product recommendations section, allowing you more control over the layout of your store. 
-- The theme’s product filtering functionality now supports boolean (true or false) custom filters. 
+- Important: Fade in animations will now be enabled by default on your theme. If you’d like to disable them, navigate to your theme settings → animations → uncheck “Reveal sections on scroll”.
+- Important: We’ve introduced a new visual way of setting your theme's colors. In your theme settings, you can now configure 5+ color schemes and apply them across sections in your themes. The default colors are created based on your theme’s current color settings, but we recommend reviewing them before publishing.
+- We’ve added new animations to your theme settings where you can have sections fade in or slide in when the user scrolls.
+- You can pick a new hover effect for buttons and cards - 3D lift.
+- You now have options to add animations on the Image with Text and Image Banner sections.
+- We added options to change the shape of the product card images.
+- We introduced the ability to send and schedule a gift card to a recipient.
+- You can now create different color schemes and apply them across your pages and sections.
+
+### Changed
+- Important: Color schemes now apply to content on the Image Banner and Slideshow sections, regardless of container visibility. Please review and adjust color schemes to ensure the content is readable.
+- There are now unique identifiers on navigation links, which lets you add custom CSS in the Header section.
+- We improved the announcement bar by adding a slider for each announcement instead of stacking them on top of each other.
+- We introduced new placeholder images across all theme sections.
 
 ### Fixes and improvements
-- Gradients will now be applied more predictably across the theme. 
-- In some cases, the maximum price wasn’t showing on the price filter. This is now fixed. 
-- We fixed an issue where navigation arrows were unexpectedly appearing on product pages. 
-- The experience of navigating the slideshow section when using a screen reader or keyboard is improved. 
-- We fixed an issue where unintended mobile menu items were being discovered by screen readers. 
-- We removed an empty heading in the contact form, improving its accessibility. 
-- There was an issue with vendor name visibility on the cart page that is now fixed. 
-- We fixed an issue where the email signup text on the password page sometimes wasn’t visible. 
-- The “Continue shopping” button on the gift card page wasn’t working as expected. This is now fixed. 
-- The Shop Pay installments text will now be center aligned when there is no accompanying product media. 
-- There were some spacing inconsistencies in the product media gallery. This is now fixed.
-- Empty columns in the multicolumn section were adding unnecessary vertical space. This is now fixed. 
-- We’re now providing improved information on how to create meaningful alt text in the video section. 
-- We fixed an issue with making products full width on featured collections. 
+- We fixed some spacing issues in the mobile drawer.
+- We improved the performance of the Collage section images.
+- We fixed some accessibility issues with the language and currency picker in the mobile drawer.
+- We fixed the facet filter animation duration to match the menu drawer.
 
 ### Removed
-- In the collection and search templates, the “Collapse on desktop” checkbox has been removed from the filtering and sorting settings. If you’d like to achieve the collapsed style, select “Drawer” from the “Desktop filter layout” dropdown. 
+- Important: Decorative icons will now always inherit text color.
